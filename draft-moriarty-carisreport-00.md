@@ -1,13 +1,13 @@
 ---
-title: STUN/TURN using PHP in Despair
-abbrev: STuPiD
-docname: draft-hartke-xmpp-stupid-latest
-date: 2009-07-05
+title: Coordinating Attack Response at Internet Scale (CARIS) Workshop Report
+abbrev: CARIS
+docname: draft-moriarty-carisreport-00
+date: 2015-10-05
 category: info
 
 ipr: trust200902
 area: General
-workgroup: XMPP Working Group
+workgroup: Network
 keyword: Internet-Draft
 
 stand_alone: yes
@@ -15,84 +15,52 @@ pi: [toc, sortrefs, symrefs]
 
 author:
  -
-    ins: K. Hartke
-    name: Klaus Hartke
-    organization: Universität Bremen TZI
-    email: hartke@tzi.org
+    ins: K. Moriarty
+    name: Kathleen M. Moriarty
+    organization: EMC Corporation
+    street: 176 South Street
+    city: Hopkinton, MA
+    country: United States
+    email: Kathleen.Moriarty@emc.com
  -
-    ins: C. Bormann
-    name: Carsten Bormann
-    org: Universität Bremen TZI
-    street: Postfach 330440
-    city: Bremen
-    code: D-28359
-    country: Germany
-    phone: +49-421-218-63921
-    facsimile: +49-421-218-7000
-    email: cabo@tzi.org
 
 normative:
   RFC2119:
-  RFC3986:
-  RFC4086:
-  RFC4648:
 
 informative:
-  RFC5389:
-  I-D.ietf-behave-turn:
-  STUNT:
-    target: http://deusty.blogspot.com/2007/09/stunt-out-of-band-channels.html
-    title: STUNT & out-of-band channels
-    author:
-      name: Robbie Hanson
-      ins: R. Hanson
-    date: 2007-09-17
-  I-D.meyer-xmpp-e2e-encryption:
-  I-D.ietf-xmpp-3920bis:
-
-
+  RFC2827:
 
 --- abstract
 
-NAT (Network Address Translator) Traversal may require TURN
-(Traversal Using Relays around NAT) functionality in certain
-cases that are not unlikely to occur.  There is little
-incentive to deploy TURN servers, except by those who need
-them — who may not be in a position to deploy a new protocol
-on an Internet-connected node, in particular not one with
-deployment requirements as high as those of TURN.
-
-"STUN/TURN using PHP in Despair" is a highly deployable
-protocol for obtaining TURN-like functionality, while also
-providing the most important function of STUN.
+The Internet Architecture Board (IAB) and the Internet Society (ISOC) hosted day-long Coordinating Attack Response at Internet Scale (CARIS) workshop took place 18 June 2015 in coordination with the Forum for Incident Response and Security Teams (FIRST) Conference in Berlin. The workshop included members of the FIRST community, attack response working group representatives (APWG, ACDC, etc.), network & security operators, RIR representatives, researchers, vendors, and representatives from standards communities. Key goals of the workshop were to improve mutual awareness, understanding, and coordination among the diverse participating organizations. The workshop also aimed at providing greater awareness of existing efforts to mitigate specific types of attacks, and greater understanding of the options others have to collaborate and engage with these efforts.
 
 --- middle
 
 Introduction        {#problems}
 ============
 
-NAT (Network Address Translator) Traversal may require TURN
-(Traversal Using Relays around NAT)
-{{I-D.ietf-behave-turn}}
-functionality in certain
-cases that are not unlikely to occur.  There is little
-incentive to deploy TURN servers, except by those who need
-them — who may not be in a position to deploy a new protocol
-on an Internet-connected node, in particular not one with
-deployment requirements as high as those of TURN.
+The Internet Architecture Board (IAB) and the Internet Society (ISOC) hosted day-long Coordinating Attack Response at Internet Scale (CARIS) workshop took place 18 June 2015 in coordination with the Forum for Incident Response and Security Teams (FIRST) Conference in Berlin. The workshop included members of the FIRST community, attack response working group representatives (APWG, ACDC, etc.), network & security operators, RIR representatives, researchers, vendors, and representatives from standards communities. Key goals of the workshop were to improve mutual awareness, understanding, and coordination among the diverse participating organizations. The workshop also aimed at providing greater awareness of existing efforts to mitigate specific types of attacks, and greater understanding of the options others have to collaborate and engage with these efforts.
 
-"STUN/TURN using PHP in Despair" is a highly deployable
-protocol for obtaining TURN-like functionality, while also
-providing the most important function of STUN
-{{RFC5389}}.
+The day-long workshop included a mix of invited and selected speakers with opportunities to collaborate throughout, taking full advantage of the tremendous value of having these diverse communities with common goals in one room. There were approximately 50 participants engaged in the CARIS workshop from the 25 papers received and additional 20 template submissions.  The template submissions will be maintained at the Internet Society web site and as a result of the workshop will be amended to provide additional value to the computer security incident response teams (CSIRTs) and attack response communities/operators on their information exchange activities.  The CARIS participants found the template submissions to be very useful in coordinating their future attack mitigation efforts.  Nothing like this had previously been done — this is open for the global community and hosted in a neutral location.  All submissions are linked from the agenda.
 
-The high degree of deployability is achieved by making STuPiD
-a Web service, implementable in any Web application deployment
-scheme.  As PHP appears to be the solution of choice for
-avoiding deployment problems in the Web world, a PHP-based
-sample implementation of STuPiD is presented in {{figimpl}} in {{impl}}.
-(This single-page script has been tested with a free-of-charge
-web hoster, so it should be deployable by literally everyone.)
+The workshop talks and panels involved full participation from attendees who were required to read all other submissions.  The panels were organized to spur conversation between specific groups to see if we could further progress towards more efficient and effective attack mitigation efforts.  See paper and blog series for additional information on possible approaches to accomplish more effective attack response and information exchanges with methods that require fewer analysts.
+
+Panel groups: {#panels}
+----------------------------
+
+Coordination between CSIRTS and attack response mitigation efforts
+Distributed Denial of Service and Botnet researchers, vendors, and operators
+Infrastructure: DNS and RIR providers and researchers
+Trust and Privacy with the exchange of potentially sensitive information
+IAB wrap up for architecture next steps
+There were a few items that stood out to me from the workshop (more to be included in the formal report):
+
+The participants are interested in expanded information on the resources and assistance offered by the RIRs and DNS providers.  Participants are going to define what is needed with follow through on next steps.
+
+Another reoccurring theme was the lack of knowledge by the community of basic security principles such as ingress and egress filtering explained in {{RFC2728}} BCP38.  The CSIRTS, operators, and vendors of attack mitigation tools found this particularly frustrating.  As a result, follow up activities may include determining if security guidance BCPs require updates or to determine whether there are opportunities to educate on these basic principles already documented by the IETF.
+
+After the workshop, the Internet Society hosted a three and a half hour boat tour through the canals of Berlin, offering additional time for collaboration among participants.  One of the lively discussions was the need for better transports for information exchange.  As the author of Real-time Inter-network Defense (RID), I agree.  RID was written more than 10 years ago and while the patterns established still show promise, there are updated solutions being worked on.  One such solution is in the IETF DOTS working group, that has an approach similar to RID with updated formats and protocols to meet the demands of todays DDoS attacks.  While TAXII (another transport option) is just in transition to OASIS, its base is similar to RID in its use of SOAP-like messaging, which will likely prevent it from scaling to the demands of the Internet.  Vendors also cited several interoperability challenges in TAXII.  Alternatively, XMPP-Grid has been proposed in the IETF SACM working group and it offers promise as the data exchange protocol.  XMPP inherently meets the requirements for today’s information exchanges with features such as publish/subscribe, federation, and use of a control channel.  XMPP-grid is taking off too with at least 10 current vendors using open source code in their products with several more planning to add support.  Review and discussion of this draft would be helpful.  REST was also brought up as a needed interface.  IETF’s MILE has a draft detailing a common RESTful interface (ROLIE) that could be used with any data format and may be of interest.  It would be good to hear from the community if this draft is of value to assist with that gap and it would be resurrected if helpful.
+
 
 
 The Need for Standardization   {#need}
