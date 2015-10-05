@@ -56,6 +56,17 @@ Panel groups: {#panels}
 
 Workshop Themes {#themes}
 -------------------------
+Better scaling attack response through improvements to the efficiency and effectiveness of information exchanges. 
+1. Data exchanges should not be just for the purpose of creating blacklists that could be redundant efforts.
+2. Involving service providers and vendors to better coordinate and scale response is key.
+
+Information security practitioners are a scare resource.
+1. Training and education was discussed to improve this gap, both to train information security professionals and others in IT on basic network {{RFC2728}}and system hygiene. 
+2. Leveraging resources to better scale response, using fewer resources is critical.
+
+
+Next Steps {#nextsteps}
+-----------------------
 
 RIR and DNS Provider Resources
 ------------------------------
@@ -72,6 +83,9 @@ Transport Options
 
 One of the lively discussions was the need for better transports for information exchange.  Real-time Inter-network Defense (RID) was written more than 10 years ago.  While the patterns established in RID still show promise, there are updated solutions being worked on.  One such solution is in the IETF DOTS working group, that has an approach similar to RID with updated formats and protocols to meet the demands of todays DDoS attacks.  While TAXII (another transport option) is just in transition to OASIS, its base is similar to RID in its use of SOAP-like messaging, which will likely prevent it from scaling to the demands of the Internet.  Vendors also cited several interoperability challenges in TAXII in discussions.  Alternatively, XMPP-Grid has been proposed in the IETF SACM working group and it offers promise as the data exchange protocol.  XMPP inherently meets the requirements for today’s information exchanges with features such as publish/subscribe, federation, and use of a control channel.  XMPP-grid is gaining traction with at least 10 vendors using it in their products with several more planning to add support.  Review and discussion of this draft would be helpful as it transitions to the MILE working group as an outcome of the workshop.  REST was also brought up as a needed interface because of the low barrier to use a RESTful interface, one only needs a browser.  IETF’s MILE has a draft detailing a common RESTful interface (ROLIE) that could be used with any data format and may be of interest. 
 
+Updated Template for Information Exchange Groups
+-----------------------------------------------
+One of the submission options was for organizations actively exchanging data to submit a template form describing their work to reduce attacks.  The CSIRTs, in particular, liked having access to this information in a neutral location like the Internet Society.  However, they would like to see changes to the form to ensure it's usefulness.  There was a desire to have this used by additional exchange groups, creating a living library to better understand how to become a member, benefit frm, or contribute to the success of the attack response and CSIRT exchange platforms.
 
 
 
