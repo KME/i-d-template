@@ -45,14 +45,40 @@ The day-long workshop included a mix of invited and selected speakers with oppor
 
 The workshop talks and panels involved full participation from attendees who were required to read all other submissions.  The panels were organized to spur conversation between specific groups to see if we could further progress towards more efficient and effective attack mitigation efforts.  See paper and blog series for additional information on possible approaches to accomplish more effective attack response and information exchanges with methods that require fewer analysts.
 
-Panel groups: {#panels}
-----------------------------
+The workshop was run under Chatham House Rule as a result of the often sensitive information involved with incident response.  As such, there was no recording, but minutes were taken and used to aid int he generation of this report.  Comments will not be attributed to any particular attendee, nor will organizations be named in association with any discussion topics that were not made public through submission templates or papers by the submitter and organization.
 
-1. Coordination between CSIRTS and attack response mitigation efforts
+Sessions and Panel Groups: {#panels}
+------------------------------------
+
+1. Stage Setting and Goals of the Workshop
+2. Coordination between CSIRTs and attack response mitigation efforts
 2. Distributed Denial of Service and Botnet researchers, vendors, and operators
 3. Infrastructure: DNS and RIR providers and researchers
 4. Trust and Privacy with the exchange of potentially sensitive information
 5. IAB wrap up for architecture next steps
+
+Coordination between CSIRTs and Attack Response Mitigation Efforts
+------------------------------------------------------------------
+The first panel session on Coordination between CSIRTs and attack mitigation efforts included representatives from several organizations that submitted templates exchange/attack type mitigation efforts.  This panel was purposefully a cross section of organizations attending to see if there were opportunities to collaborate and improve efficiency and better scale attack mitigation.  The panelists described their efforts with the following questions in mind:
+  • Describe your use case?
+  • Where they are focusing?
+  • How can others engage with them?
+  • Who participates?
+
+For each of the following organizations, additional information can be found in their template submissions:
+https://internetsociety2.wufoo.com/reports/caris-workshop-template-submissions/
+
+While ENISA provides support for the community in the form of education, training and collaboration on security and attack mitigation, it does not offer a service for attack response or mitigation.
+
+The APWG offered examples of operator driven exchanges focused on specific use cases that involve hundreds of participating organizations daily.  The APWG operates a data clearinghouse and provides infrastructure to support meaningful data exchanges and maintains a current set of data through these interactions.  More can be learned on the APWG web site in addition to their template submission.
+
+Ren-ISAC represents an interesting operational model that scales well through automation, exchanging actionalable information between 500 universities automatically implementing controls.  They leverge a small number of analysts to accomplish the task of protecting many universities, understanding the scarcity of resources, since many universities cannot respond in real-time without this automation.  The key to the sucess of their project is actualization with tools that allow organizations to make use of data operationally. They are currently working to develop open-source tools to track metrics formally.
+
+CERT.br is the Brazilian CERT and they have made impressive progress in a short amount of time.  CERT.br is the national focal point for incident reporting, collect and dissemination of threat and attack trend information in Brazil. CERT.br works to increase awareness and incident-handling capabilities in country as well as assiting to establish new CSIRTs.  In addition to providing training and awareness campaigns, they distribute honeypots and have a primary focus on network monitoring.  CERT.br requires active participation to collaborate and exchange data with them.
+
+MyCERT's mission is to address security concerns of Malaysian Internet users and reduce the probability of successful attacks.  They have been operational since 1997. MyCERT is responsible for incident handling on intrusions, identifity theft, and handling DDoS attacks, etc. MyCERT assists with CSIRT incident help in Malaysia, provides malware research, and technical coordination. In addition to incident response and coordination activities, MyCERT members provide talks, training, as well as local and regional security exercises.  MyCERT also provides incident alerts, advisories on vulnerabilities, breaches, etc. 
+
+
 
 Workshop Themes {#themes}
 -------------------------
