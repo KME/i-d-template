@@ -96,7 +96,20 @@ The CARIS workshop was focused on security and methods to improve the effectiven
 
 --- back
 
+Acknowledgements
+================
+Thank you to the members of the program committee (in alphabetical order) for your efforts to make this workshop possible and a productive session with cross area expertise.
+Matthew Ford, Internet Society, UK
+Ted Hardie, Google
+Joe Hildebrand, Cisco, USA
+Eliot Lear, Cisco, Switzerland
+Kathleen M. Moriarty, EMC Corporation, USA
+Andrew Sullivan, Dyn
+Brian Trammell, ETH Zurich, Switzerland
 
+Thank you to the CARIS workshop sponsors!
+  o FIRST provided a room and excellent facilities in partnership with their annual conference in Berlin.
+  o The Internet Society hosted the social event, a boat ride through the canals of Berlin.
+  o EMC Corporation provided lunch, snacks and coffee throughout the day to keep us going.
 
-{: #figxmpclos title="Closing the Bytestream: Success response"}
 
