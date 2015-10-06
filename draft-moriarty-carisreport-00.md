@@ -67,6 +67,7 @@ The first panel session on Coordination between CSIRTs and attack mitigation eff
 
 For each of the following organizations, additional information can be found in their template submissions:
 https://internetsociety2.wufoo.com/reports/caris-workshop-template-submissions/
+The following summaries are to be read in context of the workshop and not as stand alone descriptions for each organization as these summaries are a result of the workshop discussions.
 
 While ENISA provides support for the community in the form of education, training and collaboration on security and attack mitigation, it does not offer a service for attack response or mitigation.
 
@@ -78,6 +79,7 @@ CERT.br is the Brazilian CERT and they have made impressive progress in a short 
 
 MyCERT's mission is to address security concerns of Malaysian Internet users and reduce the probability of successful attacks.  They have been operational since 1997. MyCERT is responsible for incident handling on intrusions, identifity theft, and handling DDoS attacks, etc. MyCERT assists with CSIRT incident help in Malaysia, provides malware research, and technical coordination. In addition to incident response and coordination activities, MyCERT members provide talks, training, as well as local and regional security exercises.  MyCERT also provides incident alerts, advisories on vulnerabilities, breaches, etc. 
 
+CERT/CC has been operational work since 1998 on an international and national scale. They have long been known for their software vulnerability work and the national vulnerability database in the US (CVEs) and informing organizations of vulnerabilities.  CERT/CC helps to coordinate between vendors and researchers for improved collaborations.  CERT/CC assists with guidance on plans to deal with the aftermath, risk assessment pratice, bug bounties, and other incident related areas. 
 
 
 Workshop Themes {#themes}
