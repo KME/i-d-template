@@ -81,6 +81,25 @@ MyCERT's mission is to address security concerns of Malaysian Internet users and
 
 CERT/CC has been operational work since 1998 on an international and national scale. They have long been known for their software vulnerability work and the national vulnerability database in the US (CVEs) and informing organizations of vulnerabilities.  CERT/CC helps to coordinate between vendors and researchers for improved collaborations.  CERT/CC assists with guidance on plans to deal with the aftermath, risk assessment pratice, bug bounties, and other incident related areas. 
 
+Highlighted points from the panel discussion:
+Passive survellience has impacted incident response activities
+Government involvement in exchange eforts hasn't been productive, lots of talk without useful exchanges
+More interest in cunsuming feeds of information rather than sharing information
+Ego has been a big issue as is reputation concerns for data shared (impact your own reputation) or with data received.  There is a perception of weakness around organizations who do share attack information in some regions.
+Sharing alone doesn't help, must lead to operational ROI
+Language barriers has been an issue for some national CSIRTs
+Sharing too much information leads to capacity and resource issues for receiving organizations.  Organizations directly receiving feeds often results in mis-interpretation of the data and thinking they are under attack when it is not the case. Operational models preferred where there is an impact from exchanges and efficiencies ganied using a small number of analysts to impact many.
+Privacy regulations restricting some from sahring IP address information has had an impact on effectiveness of exchanges.  ENISA is currently running a study on this impact (raised by several attendees).
+Too many efforts are using data just for blocking attacks and not operational mitigation and elimination as part of incident response.  Note: Operational efforts stand out in that they do eliminate threats and update data warehouses.
+Involvement of vendors is needed to better scale attack response.  This is not seen as a need by all groups, just some sharing groups with an operational focus looking for improved efficiency to leverge the small number of analysts.  Analysts are a limited resource in this technical area of expertise.
+Enterprises don't want another security box as they don't have the resources to manage them, so invoving vendors doesn't mean deploying more equipment, but improving automated controls and elimination of threats where possible.
+False positives are still an issue, which can be problematic for some automation activities.
+
+
+
+
+
+
 
 Workshop Themes {#themes}
 -------------------------
