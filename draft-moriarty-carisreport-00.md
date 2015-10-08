@@ -73,63 +73,76 @@ While ENISA provides support for the community in the form of education, trainin
 
 The APWG offered examples of operator driven exchanges focused on specific use cases that involve hundreds of participating organizations daily.  The APWG operates a data clearinghouse and provides infrastructure to support meaningful data exchanges and maintains a current set of data through these interactions.  More can be learned on the APWG web site in addition to their template submission.
 
-Ren-ISAC represents an interesting operational model that scales well through automation, exchanging actionalable information between 500 universities automatically implementing controls.  They leverge a small number of analysts to accomplish the task of protecting many universities, understanding the scarcity of resources, since many universities cannot respond in real-time without this automation.  The key to the sucess of their project is actualization with tools that allow organizations to make use of data operationally. They are currently working to develop open-source tools to track metrics formally.
+Ren-ISAC represents an interesting operational model that scales well through automation, exchanging actionable information between 500 universities automatically implementing controls.  They leverage a small number of analysts to accomplish the task of protecting many universities, understanding the scarcity of resources, since many universities cannot respond in real-time without this automation.  The key to the success of their project is actualization with tools that allow organizations to make use of data operationally. They are currently working to develop open-source tools to track metrics formally.
 
-CERT.br is the Brazilian CERT and they have made impressive progress in a short amount of time.  CERT.br is the national focal point for incident reporting, collect and dissemination of threat and attack trend information in Brazil. CERT.br works to increase awareness and incident-handling capabilities in country as well as assiting to establish new CSIRTs.  In addition to providing training and awareness campaigns, they distribute honeypots and have a primary focus on network monitoring.  CERT.br requires active participation to collaborate and exchange data with them.
+CERT.br is the Brazilian CERT and they have made impressive progress in a short amount of time.  CERT.br is the national focal point for incident reporting, collect and dissemination of threat and attack trend information in Brazil. CERT.br works to increase awareness and incident-handling capabilities in country as well as assisting to establish new CSIRTs.  In addition to providing training and awareness campaigns, they distribute honeypots and have a primary focus on network monitoring.  CERT.br requires active participation to collaborate and exchange data with them.
 
-MyCERT's mission is to address security concerns of Malaysian Internet users and reduce the probability of successful attacks.  They have been operational since 1997. MyCERT is responsible for incident handling on intrusions, identifity theft, and handling DDoS attacks, etc. MyCERT assists with CSIRT incident help in Malaysia, provides malware research, and technical coordination. In addition to incident response and coordination activities, MyCERT members provide talks, training, as well as local and regional security exercises.  MyCERT also provides incident alerts, advisories on vulnerabilities, breaches, etc. 
+MyCERT's mission is to address security concerns of Malaysian Internet users and reduce the probability of successful attacks.  They have been operational since 1997. MyCERT is responsible for incident handling on intrusions, identity theft, and handling DDoS attacks, etc. MyCERT assists with CSIRT incident help in Malaysia, provides malware research, and technical coordination. In addition to incident response and coordination activities, MyCERT members provide talks, training, as well as local and regional security exercises.  MyCERT also provides incident alerts, advisories on vulnerabilities, breaches, etc. 
 
-CERT/CC has been operational work since 1998 on an international and national scale. They have long been known for their software vulnerability work and the national vulnerability database in the US (CVEs) and informing organizations of vulnerabilities.  CERT/CC helps to coordinate between vendors and researchers for improved collaborations.  CERT/CC assists with guidance on plans to deal with the aftermath, risk assessment pratice, bug bounties, and other incident related areas. 
+CERT/CC has been operational work since 1998 on an international and national scale. They have long been known for their software vulnerability work and the national vulnerability database in the US (CVEs) and informing organizations of vulnerabilities.  CERT/CC helps to coordinate between vendors and researchers for improved collaborations.  CERT/CC assists with guidance on plans to deal with the aftermath, risk assessment practice, bug bounties, and other incident related areas. 
 
 Highlighted points from the panel discussion:
-1. Passive survellience has impacted incident response activities
-2. Government involvement in exchange eforts hasn't been productive, lots of talk without useful exchanges
-3. More interest in cunsuming feeds of information rather than sharing information
+1. Passive survelliance has impacted incident response activities
+2. Government involvement in exchange efforts hasn't been productive, lots of talk without useful exchanges
+3. More interest in consuming feeds of information rather than sharing information
 4. Ego has been a big issue as is reputation concerns for data shared (impact your own reputation) or with data received.  
 5. There is a perception of weakness around organizations who do share attack information in some regions.
 6. Sharing alone doesn't help, must lead to operational ROI
 7. Language barriers has been an issue for some national CSIRTs
-8. Sharing too much information leads to capacity and resource issues for receiving organizations.  Organizations directly receiving feeds often results in mis-interpretation of the data and thinking they are under attack when it is not the case. Operational models preferred where there is an impact from exchanges and efficiencies ganied using a small number of analysts to impact many.
-9. Privacy regulations restricting some from sahring IP address information has had an impact on effectiveness of exchanges.  ENISA is currently running a study on this impact (raised by several attendees).
+8. Sharing too much information leads to capacity and resource issues for receiving organizations.  Organizations directly receiving feeds often results in mis-interpretation of the data and thinking they are under attack when it is not the case. Operational models preferred where there is an impact from exchanges and efficiencies gained using a small number of analysts to impact many.
+9. Privacy regulations restricting some from sharing IP address information has had an impact on effectiveness of exchanges.  ENISA is currently running a study on this impact (raised by several attendees).
 10. Too many efforts are using data just for blocking attacks and not operational mitigation and elimination as part of incident response.  Note: Operational efforts stand out in that they do eliminate threats and update data warehouses.
-11. Involvement of vendors is needed to better scale attack response.  This is not seen as a need by all groups, just some sharing groups with an operational focus looking for improved efficiency to leverge the small number of analysts.  Analysts are a limited resource in this technical area of expertise.
-12. Enterprises don't want another security box as they don't have the resources to manage them, so invoving vendors doesn't mean deploying more equipment, but improving automated controls and elimination of threats where possible.
+11. Involvement of vendors is needed to better scale attack response.  This is not seen as a need by all groups, just some sharing groups with an operational focus looking for improved efficiency to leverage the small number of analysts.  Analysts are a limited resource in this technical area of expertise.
+12. Enterprises don't want another security box as they don't have the resources to manage them, so involving vendors doesn't mean deploying more equipment, but improving automated controls and elimination of threats where possible.
 False positives are still an issue, which can be problematic for some automation activities.
 
 Scaling Response to DDoS and Botnets Effectively and Safely
 -----------------------------------------------------------
 
-The intorduction talk provided interesting history on Distributed Denial of Service (DDoS) attacks and the evolution of Botnets as well as methods to combat these threats.  The paper by Dave Dittrich is available to learn more on the history, this section of the report will focus on the workshop discussion in an effort to benefit from the discussions on how to better scale response to these threats.
+The introduction talk provided interesting history on Distributed Denial of Service (DDoS) attacks and the evolution of Botnets as well as methods to combat these threats.  The paper by Dave Dittrich is available to learn more on the history, this section of the report will focus on the workshop discussion in an effort to benefit from the discussions on how to better scale response to these threats.
 
 Key points from the discussion:
-1. Of the attack types discussed, DDoS and Botnets appear to be the furthest along in terms of efficient and efective response.  Other effort can learn from these afforts.  There has not been any interaction between these two attack types that may benefit from information exchange tied to remediation activities since Botnets can be the source of DDoS attacks.
-2. There is a disparity between short-term mitigation goals and actual eradication of DDoS and Botnet threats. The questions was raised: how do we normalize the same data in different ways to serve different goals? In other words, DDoS traffic is often the result of Botnets, but the data is not shared between the service providers and vendors responding to DDoS threats and those actively mitigating and erradicating Botnets.
-2. There are adhoc trust groups within the OpSec community today, CRAG is one example.
-3. Filtering and triage is an issue, but this is a solveable problem.
-4. The IETF DOTS working group effort was discussed and compared to a previous effort, Real-time Inter-network defense (RID) {{RFC6545}}.  It was stated that the two are similar, excpet DOTS makes use of current data formats and protocols and has the support of multiple DDoS vendors.  One of the goals of DOTS is to have this solution be the "glue" between vendors to communicate shared data using standard formats and protcols developed in open source tools.
-5. The IETF I2NSF effort was discussed to see if there is a way to leverage infrastructure to combat DDoS attacks.
-6. Vendors discussed existing capabilities for DDoS mitigation, while sharing exchange groups discussed their mitigation activities around Botnets (see paper submissions).
-7. Trust and reputation of data sources is still a concern.
-8. One of the exchange groups has a goal of "automated takedowns" for Botnets.  However, they think they will always have a need for manual intervention.
-9. The need for multiple levels of trust seemed to be prevalent among those participating in the panel discussion.  Intelligence agencies erode trust (this was also mentioned in the first panel in terms of surveilance activities from governments).
-10. Although trust was discussed in this panel and there are needs, it was noted that trust is not as big a barrier in these attack spaces likely due to the operational experience of participants.
+1. Of the attack types discussed, DDoS and Botnets appear to be the furthest along in terms of efficient and effective response.  Other effort can learn from these efforts.  There has not been any interaction between these two attack types that may benefit from information exchange tied to remediation activities since Botnets can be the source of DDoS attacks.
+2. There is a disparity between short-term mitigation goals and actual eradication of DDoS and Botnet threats. The questions was raised: how do we normalize the same data in different ways to serve different goals? In other words, DDoS traffic is often the result of Botnets, but the data is not shared between the service providers and vendors responding to DDoS threats and those actively mitigating and eradicating Botnets.
+3. There are ad-hoc trust groups within the OpSec community today, CRAG is one example.
+4. Filtering and triage is an issue, but this is a solvable problem.
+5. The IETF DOTS working group effort was discussed and compared to a previous effort, Real-time Inter-network defense (RID) {{RFC6545}}.  It was stated that the two are similar, except DOTS makes use of current data formats and protocols and has the support of multiple DDoS vendors.  One of the goals of DOTS is to have this solution be the "glue" between vendors to communicate shared data using standard formats and protocols developed in open source tools.
+6. The IETF I2NSF effort was discussed to see if there is a way to leverage infrastructure to combat DDoS attacks.
+7. Vendors discussed existing capabilities for DDoS mitigation, while sharing exchange groups discussed their mitigation activities around Botnets (see paper submissions).
+8. Trust and reputation of data sources is still a concern.
+9. One of the exchange groups has a goal of "automated takedowns" for Botnets.  However, they think they will always have a need for manual intervention.
+10. The need for multiple levels of trust seemed to be prevalent among those participating in the panel discussion.  Intelligence agencies erode trust (this was also mentioned in the first panel in terms of surveillance activities from governments).
+11. Although trust was discussed in this panel and there are needs, it was noted that trust is not as big a barrier in these attack spaces likely due to the operational experience of participants.
 
 
 DNS & RIRs: Attack Response and Mitigation
 ------------------------------------------
-This session was a shift from other sessions in the day as the panelists were infrastructure providers for those combating attack response.  This session was of interest to see how attack and incident responders could better collaborate with DNS and RIRs.  These groups have not interacted in the past and it was interesting to see the collaboration opportunities since the workshop patricipants rely on these services to do their jobs.  From the panelists perspective, DNS and RIRs are separate worlds, where they spend a lot of time trying to educate policymakers and how they work together to make the Internet work.
+This session was a shift from other sessions in the day as the panelists were infrastructure providers for those combating attack response.  This session was of interest to see how attack and incident responders could better collaborate with DNS and RIRs.  These groups have not interacted in the past and it was interesting to see the collaboration opportunities since the workshop participants rely on these services to do their jobs.  From the panelists perspective, DNS and RIRs are separate worlds, where they spend a lot of time trying to educate policymakers and how they work together to make the Internet work.
 
 Key discussion points:
-1. The use of passive DNS in attack mitigation was described and how it can be usful to organizations.
-2. RIRs discussed the data they maintain and provide for those interested including worldwide BGP update data and root DNS server data.  These data sets are avaiable to share with researchers and could be of interest to those working on attack response.  The current way the data is made available does not scale and ideas were discussed in the workshop to improve the scalability if this does become a tapped on resource.
+1. The use of passive DNS in attack mitigation was described and how it can be useful to organizations.
+2. RIRs discussed the data they maintain and provide for those interested including worldwide BGP update data and root DNS server data.  These data sets are available to share with researchers and could be of interest to those working on attack response.  The current way the data is made available does not scale and ideas were discussed in the workshop to improve the scalability if this does become a tapped on resource.
 3. Some of the global RIRs already actively coordinate with incident responders in their region.  In some cases they do facilitate information sharing as well as provide education and training.  Data shared out by RIRs is anonymized.
-4. A concern was raised on overlapping eforts and a request was made for the IETF and ISOC to pay attention to this and help.  This workshop was one step toward that in bringing together this diverse community.  The participants wish to see this type of even repeated for future cross area collaboration between the diverse set of groups that often only meet within their silo.  
+4. A concern was raised on overlapping efforts and a request was made for the IETF and ISOC to pay attention to this and help.  This workshop was one step toward that in bringing together this diverse community.  The participants wish to see this type of even repeated for future cross area collaboration between the diverse set of groups that often only meet within their silo.  
 5. Standards for APIs to access data consistently from RIRs and scoring methods were discussed as possible ways to scale trust.  Still questions were raised as to how this might be possible.  One might receive unverifiable data about a network. They may be able to verify the source's identity, verify route origins, but won't be able to verify provenance of data.
 
 
 Trust Privacy and Data Markings Panel
 -------------------------------------
+Why don't organizations share data? It seems to be a mix of privacy, legal, technical/mundane, cultural, and communication issues.  There are also concerns about sharing proprietary data with competitors. Having said that, most of these reasons are bogus according to operationally focused participants of the workshop. Lawyers need contextual education for the intersection of law and technology. Sensitive data is still an issue as one can't control what others do with data once it is shared.  They don't know what others might do with the data and who might receive it indirectly.
 
+Key points from the panel discussion:
+1. Operationally focused groups do retain/rate/re-mark confidence levels based upon the submitter reputation.
+2. The Traffic Light Protocol (TLP) was discussed.  While this is useful to some groups who exchange data, others find that it is not granular enough for their needs.
+3. In many cases, data is shared, user never knows, and there is no way to manage that disclosure.
+4. Trust is personal.  When sharing circles get too large, trust breaks down.  The personal relationship aspect of information sharing communities was emphasized by several who are actively exchanging data and for a number of years.  This is a very prevalent theme.
+5. A point of comparison was made that consumer goods and trademarks a byproduct of Industrial Revolution. Advertising is a large-scale trust model and can we learn from this, does trust need branding?
+6. Participants observing noted that there appears to be cabals operating the groups based on the current trust notions.  This was not disputed.
+7. Transparency is vital to maintain trust.
+8. Participants working on automation have found a need to share with organizations of all sizes as well as a need to share both synchronously and asynchronously. In an automated model, they must ensure data sources are 'authorized' and these efforts have encountered questions about anonymization as well as regional regulatory perspectives as they vary.
+9. ANother automation effort found that people have different upper limits for trust group scale, which is sometimes based on individualized knowledge of other participants and having a comfort level with them.  Social interaction (beer) is a common thread amongst sharing partners to build trust relationships.  The relationships are formed between individuals and not necessarily between organizations.
+10. It's rare for any single piece of information to be clearly identifiable as private or public. Temptation is to say info isn't personally identifiable information (PII). In aggregate, however, non-PII can become PII.
+11. There was common agreement that reputation is fundamental. 
 
 
 Workshop Themes {#themes}
@@ -163,7 +176,7 @@ One of the lively discussions was the need for better transports for information
 
 Updated Template for Information Exchange Groups
 -----------------------------------------------
-One of the submission options was for organizations actively exchanging data to submit a template form describing their work to reduce attacks.  The CSIRTs, in particular, liked having access to this information in a neutral location like the Internet Society.  However, they would like to see changes to the form to ensure it's usefulness.  There was a desire to have this used by additional exchange groups, creating a living library to better understand how to become a member, benefit frm, or contribute to the success of the attack response and CSIRT exchange platforms.
+One of the submission options was for organizations actively exchanging data to submit a template form describing their work to reduce attacks.  The CSIRTs, in particular, liked having access to this information in a neutral location like the Internet Society.  However, they would like to see changes to the form to ensure it's usefulness.  There was a desire to have this used by additional exchange groups, creating a living library to better understand how to become a member, benefit from, or contribute to the success of the attack response and CSIRT exchange platforms.
 
 
 
