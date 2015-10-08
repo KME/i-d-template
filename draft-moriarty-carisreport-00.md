@@ -52,7 +52,7 @@ Sessions and Panel Groups: {#panels}
 
 1. Stage Setting and Goals of the Workshop
 2. Coordination between CSIRTs and attack response mitigation efforts
-2. Distributed Denial of Service and Botnet researchers, vendors, and operators
+2. Scaling response to DDoS and Botnets effectively and safely
 3. Infrastructure: DNS and RIR providers and researchers
 4. Trust and Privacy with the exchange of potentially sensitive information
 5. IAB wrap up for architecture next steps
@@ -96,8 +96,27 @@ Highlighted points from the panel discussion:
 12. Enterprises don't want another security box as they don't have the resources to manage them, so invoving vendors doesn't mean deploying more equipment, but improving automated controls and elimination of threats where possible.
 False positives are still an issue, which can be problematic for some automation activities.
 
+Scaling Response to DDoS and Botnets Effectively and Safely
+-----------------------------------------------------------
+
+The intorduction talk provided interesting history on Distributed Denial of Service (DDoS) attacks and the evolution of Botnets as well as methods to combat these threats.  The paper by Dave Dittrich is available to learn more on the history, this section of the report will focus on the workshop discussion in an effort to benefit from the discussions on how to better scale response to these threats.
+
+Key points from the discussion:
+1. Of the attack types discussed, DDoS and Botnets appear to be the furthest along in terms of efficient and efective response.  Other effort can learn from these afforts.  There has not been any interaction between these two attack types that may benefit from information exchange tied to remediation activities since Botnets can be the source of DDoS attacks.
+2. There is a disparity between short-term mitigation goals and actual eradication of DDoS and Botnet threats. The questions was raised: how do we normalize the same data in different ways to serve different goals? In other words, DDoS traffic is often the result of Botnets, but the data is not shared between the service providers and vendors responding to DDoS threats and those actively mitigating and erradicating Botnets.
+2. There are adhoc trust groups within the OpSec community today, CRAG is one example.
+3. Filtering and triage is an issue, but this is a solveable problem.
+4. The IETF DOTS working group effort was discussed and compared to a previous effort, Real-time Inter-network defense (RID) {{RFC6545}}.  It was stated that the two are similar, excpet DOTS makes use of current data formats and protocols and has the support of multiple DDoS vendors.  One of the goals of DOTS is to have this solution be the "glue" between vendors to communicate shared data using standard formats and protcols developed in open source tools.
+5. The IETF I2NSF effort was discussed to see if there is a way to leverage infrastructure to combat DDoS attacks.
+6. Vendors discussed existing capabilities for DDoS mitigation, while sharing exchange groups discussed their mitigation activities around Botnets (see paper submissions).
+7. Trust and reputation of data sources is still a concern.
+8. One of the exchange groups has a goal of "automated takedowns" for Botnets.  However, they think they will always have a need for manual intervention.
+9. The need for multiple levels of trust seemed to be prevalent among those participating in the panel discussion.  Intelligence agencies erode trust (this was also mentioned in the first panel in terms of surveilance activities from governments).
+10. Although trust was discussed in this panel and there are needs, it was noted that trust is not as big a barrier in these attack spaces likely due to the operational experience of participants.
 
 
+DNS & RIRs: Attack Response and Mitigation
+------------------------------------------
 
 
 
