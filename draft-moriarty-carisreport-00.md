@@ -117,7 +117,18 @@ Key points from the discussion:
 
 DNS & RIRs: Attack Response and Mitigation
 ------------------------------------------
+This session was a shift from other sessions in the day as the panelists were infrastructure providers for those combating attack response.  This session was of interest to see how attack and incident responders could better collaborate with DNS and RIRs.  These groups have not interacted in the past and it was interesting to see the collaboration opportunities since the workshop patricipants rely on these services to do their jobs.  From the panelists perspective, DNS and RIRs are separate worlds, where they spend a lot of time trying to educate policymakers and how they work together to make the Internet work.
 
+Key discussion points:
+1. The use of passive DNS in attack mitigation was described and how it can be usful to organizations.
+2. RIRs discussed the data they maintain and provide for those interested including worldwide BGP update data and root DNS server data.  These data sets are avaiable to share with researchers and could be of interest to those working on attack response.  The current way the data is made available does not scale and ideas were discussed in the workshop to improve the scalability if this does become a tapped on resource.
+3. Some of the global RIRs already actively coordinate with incident responders in their region.  In some cases they do facilitate information sharing as well as provide education and training.  Data shared out by RIRs is anonymized.
+4. A concern was raised on overlapping eforts and a request was made for the IETF and ISOC to pay attention to this and help.  This workshop was one step toward that in bringing together this diverse community.  The participants wish to see this type of even repeated for future cross area collaboration between the diverse set of groups that often only meet within their silo.  
+5. Standards for APIs to access data consistently from RIRs and scoring methods were discussed as possible ways to scale trust.  Still questions were raised as to how this might be possible.  One might receive unverifiable data about a network. They may be able to verify the source's identity, verify route origins, but won't be able to verify provenance of data.
+
+
+Trust Privacy and Data Markings Panel
+-------------------------------------
 
 
 
